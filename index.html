@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Softwaremanufaktur Mettmann entwickelt einfache, individuelle Softwarelösungen, die sich Ihrem Betrieb anpassen. Persönlich, direkt und ohne unnötigen Ballast.">
+  <meta name="description" content="Softwaremanufaktur Mettmann entwickelt eigene und individuelle Softwarelösungen wie RAUMWERK und ÜbergabeCheck – verständlich, praxisnah und an reale Abläufe angepasst.">
   <meta name="theme-color" content="#101416">
   <title>Softwaremanufaktur Mettmann – Software, die sich Ihrem Betrieb anpasst.</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="products.css">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -43,7 +44,7 @@
           <p class="hero-lead">Keine überladenen Standardsysteme. Wir entwickeln verständliche Softwarelösungen für reale Abläufe – persönlich, individuell und mit einem direkten Ansprechpartner.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#kontakt">Projekt besprechen <span>↗</span></a>
-            <a class="button button-ghost" href="#raumwerk">RAUMWERK entdecken</a>
+            <a class="button button-ghost" href="#loesungen">Softwarelösungen ansehen</a>
           </div>
           <div class="hero-points" aria-label="Unsere Vorteile">
             <span><i>01</i> Direkter Kontakt</span>
@@ -119,7 +120,7 @@
 
         <div class="product-grid">
           <article class="product-card product-featured reveal" id="raumwerk">
-            <div class="product-topline"><span class="product-status"><i></i> Erste Softwarelösung</span><span>01</span></div>
+            <div class="product-topline"><span class="product-status"><i></i> Eigene Softwarelösung</span><span>01</span></div>
             <div class="product-title">
               <div class="raumwerk-mark" aria-hidden="true">R</div>
               <div><h3>RAUMWERK</h3><p>Raum- & Zimmerverwaltung</p></div>
@@ -131,12 +132,17 @@
             <a class="text-link" href="#raumwerk-detail">Mehr über RAUMWERK <span>→</span></a>
           </article>
 
-          <article class="product-card product-next reveal reveal-delay">
-            <div class="product-topline"><span class="product-status muted-status">In Entwicklung</span><span>02+</span></div>
-            <div class="next-symbol" aria-hidden="true"><i></i><i></i><i></i></div>
-            <h3>Weitere Lösungen folgen.</h3>
-            <p>RAUMWERK ist der Anfang. Weitere eigene Softwarelösungen werden Schritt für Schritt unter der Dachmarke Softwaremanufaktur Mettmann entstehen.</p>
-            <div class="next-line"><span></span><small>Software mit echtem Alltagsnutzen</small></div>
+          <article class="product-card product-uebergabe reveal reveal-delay" id="uebergabecheck">
+            <div class="product-topline"><span class="product-status"><i></i> Eigene Softwarelösung</span><span>02</span></div>
+            <div class="product-title">
+              <div class="uebergabe-mark" aria-hidden="true">ÜC</div>
+              <div><h3>ÜbergabeCheck</h3><p>Digitale Wohnungsübergabe</p></div>
+            </div>
+            <p class="product-copy">Wohnungsübergaben strukturiert dokumentieren – mit klaren Prüfpunkten, Zuständen, Fotos und einem fertigen Protokoll statt Zettelwirtschaft und nachträglichem Zusammensuchen.</p>
+            <div class="feature-tags">
+              <span>Übergabeprotokoll</span><span>Fotos</span><span>Zählerstände</span><span>Schlüssel</span><span>Mängel</span><span>PDF-Export</span>
+            </div>
+            <a class="text-link" href="#uebergabecheck-detail">Mehr über ÜbergabeCheck <span>→</span></a>
           </article>
         </div>
       </div>
@@ -168,6 +174,37 @@
               <div class="calendar-row cells"><span>24</span><span>25<i></i></span><span>26<i></i><i></i></span><span>27<i></i></span><span class="today">28<i></i><i></i></span></div>
               <div class="room-table"><p><b>08:30</b><span>Seminarraum A</span><em>Bestätigt</em></p><p><b>12:00</b><span>Zimmer 104</span><em>Check-in</em></p><p><b>15:30</b><span>Konferenzraum</span><em>Bestätigt</em></p></div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section handover-section" id="uebergabecheck-detail">
+      <div class="container handover-grid">
+        <div class="handover-copy reveal">
+          <p class="eyebrow"><span></span> ÜbergabeCheck</p>
+          <h2>Wohnungsübergaben. <em>Digital statt Zettelchaos.</em></h2>
+          <p>ÜbergabeCheck führt strukturiert durch eine Wohnungsübergabe und hält die wichtigen Informationen direkt dort fest, wo sie entstehen. Zustände, Mängel, Fotos und Übergabedaten werden anschließend in einem nachvollziehbaren Protokoll zusammengeführt.</p>
+          <ul class="handover-list">
+            <li><span>✓</span><div><b>Strukturiert prüfen</b><small>Räume und Übergabepunkte Schritt für Schritt dokumentieren.</small></div></li>
+            <li><span>✓</span><div><b>Fotos direkt zuordnen</b><small>Mängel und Zustände mit Bildern nachvollziehbar festhalten.</small></div></li>
+            <li><span>✓</span><div><b>Protokoll statt Nacharbeit</b><small>Die erfassten Angaben sauber als PDF-Dokument zusammenführen.</small></div></li>
+          </ul>
+          <a class="button button-primary" href="#kontakt">ÜbergabeCheck anfragen <span>↗</span></a>
+        </div>
+
+        <div class="handover-preview reveal reveal-delay" aria-hidden="true">
+          <div class="handover-preview-top"><strong>ÜbergabeCheck</strong><span>Wohnungsübergabe · Protokoll</span></div>
+          <div class="handover-preview-body">
+            <div class="handover-progress"><span></span><span></span><span></span><span></span></div>
+            <div class="handover-card">
+              <div class="handover-card-head"><b>Wohnzimmer</b><small>3 Prüfpunkte</small></div>
+              <div class="handover-check"><span>Wände & Decken</span><em>in Ordnung</em></div>
+              <div class="handover-check"><span>Fenster & Türen</span><em>in Ordnung</em></div>
+              <div class="handover-check"><span>Boden</span><em class="issue">Mangel erfasst</em></div>
+              <div class="handover-photo-row"><i></i><i></i><i></i></div>
+            </div>
+            <div class="handover-pdf"><b>Übergabeprotokoll</b><span>PDF erstellen ↗</span></div>
           </div>
         </div>
       </div>
@@ -232,7 +269,7 @@
         <div class="contact-copy">
           <p class="eyebrow light"><span></span> Kontakt</p>
           <h2>Sie haben einen Ablauf, der <em>einfacher werden sollte?</em></h2>
-          <p>Dann erzählen Sie uns davon. Kein Verkaufsgespräch mit fünf Stationen – sondern ein direkter Austausch darüber, ob und wie Software sinnvoll helfen kann.</p>
+          <p>Ob RAUMWERK, ÜbergabeCheck oder eine individuelle Softwareidee: Schreiben Sie uns direkt. Kein Verkaufsgespräch mit fünf Stationen – sondern ein Austausch darüber, ob und wie Software sinnvoll helfen kann.</p>
         </div>
         <div class="contact-action">
           <small>Direkter Kontakt</small>
