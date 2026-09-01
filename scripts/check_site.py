@@ -9,7 +9,7 @@ REQUIRED_IDS = {"loesungen", "raumwerk", "entwicklung", "warum-wir", "ueber-uns"
 REQUIRED_TEXT = [
     "Softwaremanufaktur Mettmann",
     "Software, die sich",
-    "RAUMWERK",
+    "RAUMSUITE",
     "s.mettmann@software-manufraktur.de",
 ]
 
